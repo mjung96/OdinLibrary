@@ -1,0 +1,9 @@
+The Odin Project: Library 
+
+Can add new books to library, books are displayed with title, author, # of pages, and whether or not they have been read.
+
+use command 
+    open ./index.html
+to run
+
+no styling; basic app to get down the foundations. 
