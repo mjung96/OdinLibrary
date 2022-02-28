@@ -1,0 +1,25 @@
+.book {
+    border: 1px solid black;
+}
+
+.readButton { 
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#removeButton {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#new-book-pop-up {
+display: none;
+}
+
+#new-book-form {
+    border: 1px solid black;
+}

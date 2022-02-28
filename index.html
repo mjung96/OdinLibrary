@@ -1,3 +1,37 @@
 <!Doctype html>
-
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Odin Project: Library</h1>
+        <div>
+            <button id='add-book-button'>Add Book</button>
+        </div>
+        <div id="new-book-pop-up">
+            <form id='form' action='/script.js'>
+                <span class="close">&times;</span>
+                <h3>New Book</h3>
+                <div> 
+                    <p>
+                        <input type='text' id='title' name='title' placeholder='Title' margin-bottom='5px' margin-top='5px' margin-left='5px' margin-right='5px'>
+                    </p>
+                    <p>
+                        <input type='text' id='author' name='author' placeholder='Author' margin-bottom='5px' margin-top='5px' margin-left='5px' margin-right='5px'>
+                    </p>
+                    <p>
+                        <input type='text' id='pages' name='pages' placeholder='Number of Pages' margin-bottom='5px' margin-top='5px' margin-left='5px' margin-right='5px'>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label >Have Read? </label>
+                        <input type='checkbox' id='read' name='read' value='yes'>
+                    </p>
+                </div>
+                <button type='submit' form='form' id='add-button'>Add</button>
+            </form>
+        </div>
+        <div id='container'></div>
+        <script src="script.js"></script>
+    </body>
 </html>
